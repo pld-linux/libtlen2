@@ -14,6 +14,7 @@ Source0:	http://libtlen.eu.org/libtlen2_files/%{name}-%{_snap}.tar.gz
 URL:		http://www.libtlen.eu.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gnet-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
