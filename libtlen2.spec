@@ -6,7 +6,7 @@ Release:	1
 Epoch:		1
 License:	LGPL
 Group:		Libraries
-Source0:	http://osdn.dl.sourceforge.net/libtlen2/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/libtlen2/%{name}-%{version}.tar.gz
 # Source0-md5:	4cf7234e04f0c63e6e443864afcf8e42
 #Source0:	http://libtlen.eu.org/libtlen2_files/%{name}-%{_snap}.tar.gz
 URL:		http://libtlen2.sourceforge.net/
