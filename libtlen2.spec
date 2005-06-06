@@ -14,6 +14,9 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gnet-devel
 BuildRequires:	libstdc++-devel
+BuildRequires:	libtool
+BuildRequires:	libxml2-devel >= 1:2.5.0
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
