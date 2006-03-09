@@ -1,14 +1,14 @@
 Summary:	Tlen.pl client library
 Summary(pl):	Biblioteka kliencka Tlen.pl
 Name:		libtlen2
-Version:	0.0.1
-Release:	1
+Version:	0.0.2
+%define		snap	20060309
+Release:	0.%{snap}.1
 Epoch:		1
 License:	LGPL
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/libtlen2/%{name}-%{version}.tar.gz
-# Source0-md5:	4cf7234e04f0c63e6e443864afcf8e42
-#Source0:	http://libtlen.eu.org/libtlen2_files/%{name}-%{_snap}.tar.gz
+Source0:	%{name}-cvs-%{snap}.tar.bz2
+# Source0-md5:	502faa748bb2871cb982b9a0524b528c
 URL:		http://libtlen2.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -56,7 +56,7 @@ Static libtlen library.
 Biblioteka statyczna libtlen.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
 %{__libtoolize}
