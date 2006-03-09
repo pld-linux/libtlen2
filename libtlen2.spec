@@ -2,7 +2,7 @@ Summary:	Tlen.pl client library
 Summary(pl):	Biblioteka kliencka Tlen.pl
 Name:		libtlen2
 Version:	0.0.2
-%define		snap	20060309
+%define	snap	20060309
 Release:	0.%{snap}.1
 Epoch:		1
 License:	LGPL
