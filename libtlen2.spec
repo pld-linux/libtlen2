@@ -1,5 +1,5 @@
 Summary:	Tlen.pl client library
-Summary(pl):	Biblioteka kliencka Tlen.pl
+Summary(pl.UTF-8):   Biblioteka kliencka Tlen.pl
 Name:		libtlen2
 Version:	0.0.2
 %define	snap	20060309
@@ -24,14 +24,14 @@ libtlen is a library providing an API for client programs which want
 to use Tlen.pl, an Instant Messanging protocol based on Jabber, but
 with some modifications.
 
-%description -l pl
-Biblioteka libtlen dostarcza API dla program體 klienckich
-korzystaj眂ych z protoko硊 Tlen.pl kt髍y bazuje na Jabber z
+%description -l pl.UTF-8
+Biblioteka libtlen dostarcza API dla program贸w klienckich
+korzystaj膮cych z protoko艂u Tlen.pl kt贸ry bazuje na Jabber z
 niewielkimi modyfikacjami.
 
 %package devel
 Summary:	Header files for developping programs using libtlen
-Summary(pl):	Pliki nag丑wkowe do biblioteki libtlen
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe do biblioteki libtlen
 Group:		Development/Libraries
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
@@ -39,20 +39,20 @@ Requires:	%{name} = %{epoch}:%{version}-%{release}
 This package is required to develop programs that use Tlen.pl
 protocol.
 
-%description devel -l pl
-Pakiet wymagany przy pisaniu program體 korzystaj眂ych z protoko硊
+%description devel -l pl.UTF-8
+Pakiet wymagany przy pisaniu program贸w korzystaj膮cych z protoko艂u
 Tlen.pl.
 
 %package static
 Summary:	Static version of libtlen library
-Summary(pl):	Biblioteka statyczna libtlen
+Summary(pl.UTF-8):   Biblioteka statyczna libtlen
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{epoch}:%{version}-%{release}
 
 %description static
 Static libtlen library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteka statyczna libtlen.
 
 %prep
