@@ -1,0 +1,1 @@
+- BuildRequires: libsigc++1-devel instead libsigc++-devel
