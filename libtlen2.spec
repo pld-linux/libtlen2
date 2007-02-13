@@ -1,5 +1,5 @@
 Summary:	Tlen.pl client library
-Summary(pl.UTF-8):   Biblioteka kliencka Tlen.pl
+Summary(pl.UTF-8):	Biblioteka kliencka Tlen.pl
 Name:		libtlen2
 Version:	0.0.2
 %define	snap	20060309
@@ -31,7 +31,7 @@ niewielkimi modyfikacjami.
 
 %package devel
 Summary:	Header files for developping programs using libtlen
-Summary(pl.UTF-8):   Pliki nagłówkowe do biblioteki libtlen
+Summary(pl.UTF-8):	Pliki nagłówkowe do biblioteki libtlen
 Group:		Development/Libraries
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
@@ -45,7 +45,7 @@ Tlen.pl.
 
 %package static
 Summary:	Static version of libtlen library
-Summary(pl.UTF-8):   Biblioteka statyczna libtlen
+Summary(pl.UTF-8):	Biblioteka statyczna libtlen
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{epoch}:%{version}-%{release}
 
