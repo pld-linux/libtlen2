@@ -1,0 +1,1 @@
+- libsigc++ seems to be not needed, everything is working without it
